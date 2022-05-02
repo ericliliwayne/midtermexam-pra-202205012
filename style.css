@@ -24,7 +24,31 @@ body{
     height: calc(100% - 65px - 20px);
 }
 .menu{
+    display: flex;
+    flex-direction: column;
     flex-basis: calc(100% - 25px);
+}
+.m1{
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-align: center;
+    color: #ff00ff;
+    margin: 10px auto;
+}
+.m2{
+    font-size: 16px;
+    font-weight: 500;
+    width: 200px;
+    padding: 5px;
+    text-align: center;
+    color: #000000;
+    margin: 5px auto;
+    background-image: url(./images/menu1.png);
+}
+.m2:hover{
+    background-image: url(./images/menu2.png);
 }
 .update{
     flex-basis: 25px;
