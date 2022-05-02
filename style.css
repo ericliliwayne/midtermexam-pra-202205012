@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1024px;
+    height: 768px;
+    margin: auto;
+    font-family: '標楷體';
+}
+.top,.menu,.update,.marquee,.content,.footer{
+    border: 1px solid lightgray;
+}
+.top{
+    width: 1000px;
+    height: 65px;
+}
+.aside{
+    display: flex;
+    flex-direction: column;
+    width: 215px;
+    height: calc(100% - 65px - 20px);
+}
+.menu{
+    flex-basis: calc(100% - 25px);
+}
+.update{
+    flex-basis: 25px;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 785px;
+}
+.marquee{
+    flex-basis: 29px;
+}
+.content{
+    flex-basis: calc(100% - 29px);
+}
+.footer{
+    width: 1000px;
+    height: 20px;
+}
